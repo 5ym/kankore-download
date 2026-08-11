@@ -1,0 +1,17 @@
+{
+	"name": "kankore-download",
+	"version": "2.0.0",
+	"private": true,
+	"type": "module",
+	"description": "艦これのタイトルコール音声・タイトル画像をまとめてダウンロードして ZIP 化する CLI",
+	"repository": "github:5ym/kankore-download",
+	"scripts": {
+		"start": "bun run src/index.ts",
+		"test": "bun test",
+		"check": "bunx tsc --noEmit"
+	},
+	"devDependencies": {
+		"@types/bun": "^1.3.14",
+		"typescript": "~6.0.3"
+	}
+}
